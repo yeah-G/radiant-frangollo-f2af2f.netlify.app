@@ -198,9 +198,6 @@ html {
 html {
 	height:100%;
 }
-[class~=header]>img {
-	width:2.225pc;
-}
 [class~=back] {
 	display:block;
 }
