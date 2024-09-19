@@ -425,6 +425,9 @@ progress {
 	[class~=QR_Code]>img {
 		height:0.95in;
 	}
+	.header_list {
+		margin-left:28px;
+	}
 	#box {
 		box-shadow:0in 0px .1875pc -.3125pc grey;
 	}
@@ -498,7 +501,7 @@ progress {
 		border-left-style:solid;
 	}
 	#box>img {
-		top:12ch;
+		top:10ch;
 	}
 	#box {
 		border-bottom-style:solid;
@@ -645,7 +648,7 @@ progress {
 		border-image:none;
 	}
 	#box>h4 {
-		margin-top: 130px;
+		margin-top: 110px;
 	}
 	[class~=box_footer] {
 		border-bottom-right-radius:15px;
@@ -671,4 +674,7 @@ progress {
 	progress {
 		position: relative;
 	}
+}
+h2{
+	font-size:14pt;
 }
