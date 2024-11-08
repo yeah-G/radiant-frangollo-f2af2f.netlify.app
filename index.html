@@ -42,9 +42,12 @@
                 // 체크박스가 변경될 때 마스킹 처리
                 $('.switch input').change(function() {
                     if ($(this).is(':checked')) {
-                        $('.masking').text('2171828');
+                        $('.masking').text('2361828');
+                        $('.address').text('인천광역시 부평구 경원대로 1192 (십정동, 힐스테이트 부평)');
                     } else {
                         $('.masking').text('*******');
+                        $('.address').text('인천광역시 부평구');
+                        
                     }
                 });
             });
@@ -83,7 +86,7 @@
                     <span class="slider"></span>
                 </label>
                 <p id="j_num" class="num">960420-<em class="masking">*******</em></p>
-                <p style="font-size:14pt">인천광역시 부평구</p>
+                <p style="font-size:14pt"><em class="address">인천광역시 부평구</em></p>
                 <div class="main_bottom">
                     <time style="font-size:14pt" datetime="2013-01-28">2017.11.20</time>
                     <p style="font-size:14pt">인천광역시 부평구청장</p>
